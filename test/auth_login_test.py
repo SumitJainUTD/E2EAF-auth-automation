@@ -1,6 +1,6 @@
 import os
 import pytest
-import auth_helper
+from .auth_helper import AuthHelper
 from E2EAF_auth_automation.auth.auth import Auth
 import logging
 
@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel('INFO')
 
 auth = Auth(env)
-authHelper = auth_helper.AuthHelper(env, auth)
+authHelper = AuthHelper(env, auth)
 
 
 
