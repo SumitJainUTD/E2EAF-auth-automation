@@ -1,0 +1,14 @@
+attrs==21.2.0
+certifi==2021.10.8
+charset-normalizer==2.0.7
+E2EAF-common @ git+https://github.com/SumitJainUTD/E2EAF-common.git@2fed0b29e9958b5faece047999b8607a046747ef
+idna==3.3
+iniconfig==1.1.1
+packaging==21.0
+pluggy==1.0.0
+py==1.10.0
+pyparsing==3.0.1
+pytest==6.2.5
+requests==2.26.0
+toml==0.10.2
+urllib3==1.26.7
