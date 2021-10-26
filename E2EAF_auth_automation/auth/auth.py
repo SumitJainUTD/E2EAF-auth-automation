@@ -1,6 +1,6 @@
-from ..utils.configuration import Configuration
+from E2EAF_auth_automation.utils.configuration import Configuration
 from E2EAF_common import ApiClient, DataError
-from ..resources import auth_constants
+from E2EAF_auth_automation.resources import auth_constants
 
 
 class Auth:
