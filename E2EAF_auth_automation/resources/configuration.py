@@ -1,4 +1,5 @@
 import configparser
+import os
 
 import requests
 
@@ -7,7 +8,8 @@ class Configuration(object):
     def __init__(self, env):
         self.users = None
         config = configparser.ConfigParser(allow_no_value=True)
-        config.read('../E2EAF_auth_automation/resources/config-auth.cfg')
+        cwd = os.path.dirname(__file__)
+        config.read(cwd+'/config-auth.cfg')
 
         section = 'QA'
         if env == 'qa':
