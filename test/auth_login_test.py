@@ -11,7 +11,7 @@ else:
     env = 'qa'
 
 logger = logging.getLogger(__name__)
-logger.setLevel('INFO')
+logger.setLevel('DEBUG')
 
 auth = Auth(env)
 authHelper = AuthHelper(env, auth)
