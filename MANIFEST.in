@@ -1,0 +1,1 @@
+include E2EAF_auth_automation/resources/*.yaml
