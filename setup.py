@@ -1,4 +1,5 @@
 import setuptools
+import ve
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -7,7 +8,7 @@ with open("requirements.txt", "r") as fh:
 
 setuptools.setup(
     name="E2EAF-auth-automation",
-    version="0.0.1",
+    version="0.0.2",
     author="Sumit",
     author_email="sumit@email",
     description="A Python library which implements auth tests and helpers",
