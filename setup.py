@@ -15,8 +15,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     packages=setuptools.find_packages(exclude=["test"]),
-    package_data={'E2EAF_auth_automation': ['resources/*.yaml']},
     include_package_data=True,
+    package_data={
+        '': ['*.yaml']
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
