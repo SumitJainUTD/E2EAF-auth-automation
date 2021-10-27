@@ -1,5 +1,4 @@
 import setuptools
-import ve
 
 with open("README.rst", "r") as fh:
     long_description = fh.read()
@@ -15,10 +14,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     packages=setuptools.find_packages(exclude=["test"]),
-    # include_package_data=True,
-    # package_data={
-    #     '': ['*.yaml']
-    # },
+    include_package_data=True,
+    package_data={
+        '': ['*.yaml']
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
