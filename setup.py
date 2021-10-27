@@ -15,7 +15,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     packages=setuptools.find_packages(exclude=["test"]),
-    include_package_data=True,
+    # include_package_data=True,
     # package_data={
     #     '': ['*.yaml']
     # },
